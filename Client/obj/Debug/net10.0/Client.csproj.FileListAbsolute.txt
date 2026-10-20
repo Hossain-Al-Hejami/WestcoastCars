@@ -91,5 +91,6 @@
 /Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/obj/Debug/net10.0/ref/Client.dll
 /Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/bin/Debug/net10.0/Avalonia.Markup.Xaml.Loader.dll
 /Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/bin/Debug/net10.0/HotAvalonia.Core.dll
+/Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/obj/Debug/net10.0/Client.sourcelink.json
 /Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/obj/Debug/net10.0/Client.csproj.Fody.CopyLocal.cache
 /Users/husseinal-hejami/Documents/Avalonia/WestcoastCars/Client/obj/Debug/net10.0/Client.csproj.Fody.RuntimeCopyLocal.cache
