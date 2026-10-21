@@ -12,48 +12,14 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/husseinal-hejami/.nuget/packages/" />
   </ItemGroup>
-  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Compile Include="$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/cs/any/AvaloniaHotReloadExtensions.cs" Condition="Exists('$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/cs/any/AvaloniaHotReloadExtensions.cs')">
-      <NuGetPackageId>HotAvalonia.Extensions</NuGetPackageId>
-      <NuGetPackageVersion>3.1.5</NuGetPackageVersion>
-      <NuGetItemType>Compile</NuGetItemType>
-      <Pack>false</Pack>
-      <Private>False</Private>
-      <Link>AvaloniaHotReloadExtensions.cs</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup Condition=" '$(Language)' == 'F#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Compile Include="$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/fs/any/AvaloniaHotReloadExtensions.fs" Condition="Exists('$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/fs/any/AvaloniaHotReloadExtensions.fs')">
-      <NuGetPackageId>HotAvalonia.Extensions</NuGetPackageId>
-      <NuGetPackageVersion>3.1.5</NuGetPackageVersion>
-      <NuGetItemType>Compile</NuGetItemType>
-      <Pack>false</Pack>
-      <Private>False</Private>
-      <Link>AvaloniaHotReloadExtensions.fs</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup Condition=" '$(Language)' == 'VB' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Compile Include="$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/vb/any/AvaloniaHotReloadExtensions.vb" Condition="Exists('$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/contentFiles/vb/any/AvaloniaHotReloadExtensions.vb')">
-      <NuGetPackageId>HotAvalonia.Extensions</NuGetPackageId>
-      <NuGetPackageVersion>3.1.5</NuGetPackageVersion>
-      <NuGetItemType>Compile</NuGetItemType>
-      <Pack>false</Pack>
-      <Private>False</Private>
-      <Link>AvaloniaHotReloadExtensions.vb</Link>
-    </Compile>
-  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/3.119.4/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/3.119.4/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props')" />
-    <Import Project="$(NuGetPackageRoot)hotavalonia.fody/3.1.5/build/HotAvalonia.Fody.props" Condition="Exists('$(NuGetPackageRoot)hotavalonia.fody/3.1.5/build/HotAvalonia.Fody.props')" />
-    <Import Project="$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/build/HotAvalonia.Extensions.props" Condition="Exists('$(NuGetPackageRoot)hotavalonia.extensions/3.1.5/build/HotAvalonia.Extensions.props')" />
-    <Import Project="$(NuGetPackageRoot)avalonia/12.1.4/buildTransitive/Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia/12.1.4/buildTransitive/Avalonia.props')" />
-    <Import Project="$(NuGetPackageRoot)hotavalonia/3.1.5/build/HotAvalonia.props" Condition="Exists('$(NuGetPackageRoot)hotavalonia/3.1.5/build/HotAvalonia.props')" />
     <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/8.3.1.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/8.3.1.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
     <Import Project="$(NuGetPackageRoot)avaloniaui.diagnosticssupport/2.2.3/buildTransitive/AvaloniaUI.DiagnosticsSupport.props" Condition="Exists('$(NuGetPackageRoot)avaloniaui.diagnosticssupport/2.2.3/buildTransitive/AvaloniaUI.DiagnosticsSupport.props')" />
+    <Import Project="$(NuGetPackageRoot)avalonia/12.1.3/buildTransitive/Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia/12.1.3/buildTransitive/Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">/Users/husseinal-hejami/.nuget/packages/avalonia.buildservices/11.3.2</PkgAvalonia_BuildServices>
-    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">/Users/husseinal-hejami/.nuget/packages/avalonia/12.1.4</PkgAvalonia>
-    <PkgHotAvalonia Condition=" '$(PkgHotAvalonia)' == '' ">/Users/husseinal-hejami/.nuget/packages/hotavalonia/3.1.5</PkgHotAvalonia>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">/Users/husseinal-hejami/.nuget/packages/avalonia/12.1.3</PkgAvalonia>
   </PropertyGroup>
 </Project>

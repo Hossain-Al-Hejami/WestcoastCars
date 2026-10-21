@@ -48,33 +48,27 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[12.1.4, )"
+              "version": "[12.1.3, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[12.1.4, )"
+              "version": "[12.1.3, )"
             },
             "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[12.1.4, )"
-            },
-            "Avalonia.Markup.Xaml.Loader": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[12.1.4, )"
+              "version": "[12.1.3, )"
             },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[12.1.4, )"
+              "version": "[12.1.3, )"
             },
             "AvaloniaUI.DiagnosticsSupport": {
               "target": "Package",
               "version": "[2.2.3, )"
             },
-            "HotAvalonia": {
-              "suppressParent": "All",
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[8.4.2, )"
             }
           },
           "imports": [
